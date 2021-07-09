@@ -1,0 +1,34 @@
+html.drdt-dark-mode:not(.demo-selector) .add_to_cart_button,
+html.drdt-dark-mode:not(.demo-selector) .woocommerce-button,
+html.drdt-dark-mode:not(.demo-selector1) .add_to_cart_button,
+html.drdt-dark-mode:not(.demo-selector1) .woocommerce-button,
+html.drdt-dark-mode:not(.demo-selector2) .add_to_cart_button,
+html.drdt-dark-mode:not(.demo-selector2) .woocommerce-button,
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .add_to_cart_button,
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .woocommerce-button{
+    background-color:var(--drdt-dark-mode-btn)!important;
+    color:var(--drdt-dark-mode-text)!important;
+    border-color:var(--drdt-dark-mode-border)!important;
+}
+html.drdt-dark-mode:not(.demo-selector) .add_to_cart_button *,
+html.drdt-dark-mode:not(.demo-selector) .woocommerce-button *,
+html.drdt-dark-mode:not(.demo-selector1) .add_to_cart_button *,
+html.drdt-dark-mode:not(.demo-selector1) .woocommerce-button *,
+html.drdt-dark-mode:not(.demo-selector2) .add_to_cart_button *,
+html.drdt-dark-mode:not(.demo-selector2) .woocommerce-button *,
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .add_to_cart_button *,
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .woocommerce-button *{
+    background:0 0!important;
+}
+html.drdt-dark-mode:not(.demo-selector) .woocommerce-orders-table tr:nth-child(odd),
+html.drdt-dark-mode:not(.demo-selector1) .woocommerce-orders-table tr:nth-child(odd),
+html.drdt-dark-mode:not(.demo-selector2) .woocommerce-orders-table tr:nth-child(odd),
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .woocommerce-orders-table tr:nth-child(odd){
+    background-color:var(--drdt-dark-mode-btn)!important;
+}
+html.drdt-dark-mode:not(.demo-selector) .woocommerce ul.products li.product .onsale,
+html.drdt-dark-mode:not(.demo-selector1) .woocommerce ul.products li.product .onsale,
+html.drdt-dark-mode:not(.demo-selector2) .woocommerce ul.products li.product .onsale,
+html.drdt-dark-mode:not(.drdt-dark-mode-ignore) .woocommerce ul.products li.product .onsale{
+    border:1px solid;
+}

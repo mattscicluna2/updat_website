@@ -1,0 +1,45 @@
+
+---Downloaded files---
+The import files for: OnePage were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://droitthemes.com/wp/saasland-theme/onepage
+Data file = /home/droitthemes/public_html/wp/saasland-theme/onepage/wp-content/uploads/2020/11/demo-content-import-file_2020-11-04__05-48-28.xml
+Widget file = /home/droitthemes/public_html/wp/saasland-theme/onepage/wp-content/themes/saasland/inc/demos/onepage/widgets.wie
+Customizer file = not defined!
+Redux files:
+saasland_opt -> /home/droitthemes/public_html/wp/saasland-theme/onepage/wp-content/themes/saasland/inc/demos/onepage/settings.json 
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+Recent Posts - No Title - Imported
+
+shop_sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+woocommerce_product_search - No Title - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+woocommerce_products - Products - Site does not support widget
+woocommerce_product_categories - Product categories - Site does not support widget
+
+Footer widgets : 
+
+Text - No Title - Imported
+Navigation Menu - About Us - Imported
+Navigation Menu - Workflow Solutions - Imported
+Navigation Menu - Team Solutions - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: saasland_opt finished successfully!
+
+---pt-ocdi/after_import---
+

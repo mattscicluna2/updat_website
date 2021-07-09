@@ -1,0 +1,26 @@
+{
+    "name": "droitlab/droit-el-template-lite",
+    "description": "Droit Elementor Template Lite is a bundle of super useful templates. This Elementor compatible plugin is easy to use and you can customize different features as you like. Just plug and play.",
+    "keywords": ["best elementor template 2020", "Droit template for elementor", "best free elementor template 2020", "premium template for elementor", "best elementor template reddit", "the plus template for elementor", "best elementor template for woocommerce", "master template for elementor", "elementor addon elements", "top elementor template", "elementor template free", "elementor template plugin", "elementor template wordpress"],
+    "homepage": "https://droitlab.com",
+    "type": "droitelementortemplate",
+    "time": "16-11-2020",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "DroitLab",
+            "email": "inbox@droitthemes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "support": {
+        "email": "inbox@droitthemes.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "DROIT_ELEMENTOR_TEMPLATE\\": "includes/",
+            "DROIT_ELEMENTOR_TEMPLATE\\Core\\": "core/"
+        }
+    }
+}

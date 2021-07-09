@@ -1,0 +1,92 @@
+[
+  {
+    "type": "checkbox",
+    "id": "wp-manual",
+    "title": "Display manually",
+    "content": "Display the chat manually. You will need to manually insert the chat script to the pages you want to show the chat."
+  },
+  {
+    "type": "checkbox",
+    "id": "wp-multisite",
+    "title": "Multisite routing",
+    "content": "Automatically create a department for each website and route the conversations of each website to the right department. This setting requires a WordPress Multisite installation."
+  },
+  {
+    "type": "multi-input",
+    "id": "wp-visibility",
+    "title": "Visibility",
+    "content": "Choose where to display the chat. Insert the values separated by commas. See the docs for more details.",
+    "value": [
+      {
+        "type": "select",
+        "id": "wp-visibility-type",
+        "title": "Type",
+        "value": [
+          [ "show", "Show" ],
+          [ "hide", "Hide" ]
+        ]
+      },
+      {
+        "type": "text",
+        "id": "wp-visibility-ids",
+        "title": "Pages IDs",
+        "content": ""
+      },
+      {
+        "type": "text",
+        "id": "wp-visibility-post-types",
+        "title": "Post Types slugs",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "id": "wp-users-system",
+    "title": "User system",
+    "content": "Choose which user system the front-end chat will use to register and log in users.",
+    "value": [
+      [ "sb", "Support Board" ],
+      [ "wp", "WordPress" ]
+    ]
+  },
+  {
+    "type": "select",
+    "id": "wp-language",
+    "title": "Force language",
+    "content": "Force the chat to ignore the language preferences, and to use always the same language.",
+    "value": [
+      [ "", "Disabled" ],
+      [ "en", "English" ],
+      [ "ar", "Arabic" ],
+      [ "da", "Danish" ],
+      [ "de", "German" ],
+      [ "es", "Spanish" ],
+      [ "fr", "French" ],
+      [ "hi", "Hindi" ],
+      [ "id", "Indonesian" ],
+      [ "it", "Italian" ],
+      [ "ja", "Japanese" ],
+      [ "ko", "Korean" ],
+      [ "nl", "Dutch" ],
+      [ "no", "Norwegian" ],
+      [ "pl", "Polish" ],
+      [ "pt", "Portuguese" ],
+      [ "ru", "Russian" ],
+      [ "sv", "Swedish" ],
+      [ "th", "Thai" ],
+      [ "tr", "Turkish" ],
+      [ "uk", "Ukrainian" ],
+      [ "vi", "Vietnamese" ],
+      [ "zh", "Chinese" ]
+    ]
+  },
+  {
+    "type": "button",
+    "id": "wp-synch",
+    "title": "Synchronize users",
+    "content": "Sync all WordPress users with Support Board. Only new users will be imported.",
+    "button-text": "Start importing",
+    "button-url": "#"
+  }
+]
